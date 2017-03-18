@@ -1,0 +1,21 @@
+.footer{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	height: 72px;
+	margin-top: -72px;
+	background: rgb(33, 33, 33);
+	box-shadow: 0 6px 6px 0 rgba(0, 0, 0, .2);
+}
+
+.footer__content{
+	width: 513px;
+	margin: 0 auto;
+	font-size: 14.06px;
+	line-height: 21.09px;
+	color: rgb(144, 144, 144);
+	padding-top: 16px;
+	padding-bottom: 16px;
+	text-align: center;
+}

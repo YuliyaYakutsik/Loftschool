@@ -1,0 +1,230 @@
+.about{
+	padding: 80px 0 73px;
+}
+
+.about .container, .courses .container{
+	padding-right: 130px;
+	padding-left: 130px;
+	text-align: center;
+}
+
+.about__title{
+	font-size: 42px;
+	font-family: 'fira__sansmedium', Arial, sans-serif;
+	line-height: 27.82px;
+	color: rgb(33, 33, 33);
+	margin-bottom: 25px;
+}
+
+.about__text{
+	font-size: 21px;
+	line-height: 27.82px;
+	color: rgb(114, 114, 114);
+	font-family: 'fira__sanslight', Arial, sans-serif;
+	margin-bottom: 37px;
+}
+
+.about__list{
+	text-align: left;
+}
+
+.about__item{
+	display: inline-block;
+	width: 48%;
+	vertical-align: top;
+}
+
+.about__item:not(:first-child){
+	margin-left: 2.5%;
+}
+
+.about__item-pic{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.about__item-content{
+	display: inline-block;
+	width: 65%;
+	padding-left: 17px;
+	text-align: left;
+}
+
+.about__item-title{
+	font-size: 21px;
+	line-height: 28px;
+	color: rgb(33, 33, 33);
+	margin-bottom: 8px;
+}
+
+.about__item-text{
+	font-size: 14px;
+	line-height: 21px;
+	font-family: 'fira__sanslight', Arial, sans-serif;
+	color: rgb(114, 114, 114);
+}
+
+.about__link{
+	color: rgb(20, 175, 245);
+}
+
+.courses{
+	background: url('../../pictures/gplaypattern.png');
+	position: relative;
+}
+
+.courses_filter{
+	background-color: rgba(246, 247, 242, .6);
+	padding: 80px 0 58px 0;
+}
+
+.courses__title-loftblog{
+	font-size: 42px;
+	font-family: 'fira__sansmedium', Arial, sans-serif;
+	line-height: 27.82px;
+	color: rgb(33, 33, 33);
+	margin-bottom: 25px;
+}
+
+.courses__text-loftblog{
+	font-size: 21px;
+	line-height: 27.82px;
+	color: rgb(114, 114, 114);
+	font-family: 'fira__sanslight', Arial, sans-serif;
+	margin-bottom: 45px;
+}
+
+.courses__list{
+	margin-left: -2%;
+}
+
+.courses__item{
+	display: inline-block;
+	vertical-align: top;
+	width: 31%;
+	margin-left: 2%;
+	margin-bottom: 20px;
+	box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, .2);
+	border-radius: 4px;
+	overflow: hidden;
+	background-color: rgb(255, 255, 255);
+	text-align: left;
+}
+
+.courses__link{
+	text-decoration: none;
+}
+
+.courses__item-img{
+	height: 170px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+	position: relative;
+}
+
+.courses__item-img::before{
+	content: "";
+	width: 0;
+	height: 5px;
+	background: rgb(140, 195, 75);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.courses__item:hover .courses__item-img::before{
+	width: 100%;
+	-webkit-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
+}
+
+.courses__item-content{
+	padding: 20px 20px 15px 20px;
+}
+
+.courses__title{
+	font-size: 21px;
+	line-height: 24px;
+	color: rgb(33, 33, 33);
+	-webkit-transition: .3s;
+	-o-transition: .3s;
+	transition: .3s;
+}
+
+.courses__text{
+	font-size: 14px;
+	line-height: 21px;
+	font-family: 'fira__sanslight', Arial, sans-serif;
+	color: rgb(114, 114, 114);
+	padding: 8px 0;
+}
+
+.courses__duration{
+	font-size: 14px;
+	line-height: 21px;
+	font-family: 'fira__sanslight', Arial, sans-serif;
+	color: rgb(182, 182, 182);
+}
+
+.courses__checkbox{
+	background-color: #f6f7f2;
+}
+
+.courses__item:hover .courses__title{
+	color: rgb(140, 195, 75);
+}
+
+.form{
+	padding: 18px 20px;
+}
+
+.done{
+	position: absolute;
+    left: -9999px;
+}
+
+.label{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 18px;
+	line-height: 28px;
+	color: rgb(114, 114, 114);
+	background: url('../../pictures/spritesheet.png') -5px -3px no-repeat;
+	width: 20px;
+	height: 25px;
+    padding-left: 37px;
+}
+
+.done:checked + .label{
+	background-position: -5px -33px;
+	color: rgb(140, 195, 75);
+}
+
+.courses__done{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-51.5%, -100%);
+	display: none;
+	line-height: 27.57px;
+	font-family: 'fira__sansmedium', Arial, sans-serif;
+	color: rgb(140, 195, 75);
+}
+
+.courses__done-text{
+	font-size: 41.63px;
+	margin-left: 13px;
+	display: inline-block;
+}
+
+.fa.fa-check{
+	display: inline-block;
+	font-size: 33px;
+}
+
+.courses__block-done{
+	box-shadow: none;
+	opacity: .7;
+}
