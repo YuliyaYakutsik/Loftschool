@@ -1,10 +1,7 @@
 .footer{
-	position: fixed;
-	bottom: 0;
-	right: 0;
-	left: 0;
 	height: 72px;
 	margin-top: -72px;
+	min-width: 1200px;
 	background: rgb(33, 33, 33);
 	box-shadow: 0 6px 6px 0 rgba(0, 0, 0, .2);
 }
